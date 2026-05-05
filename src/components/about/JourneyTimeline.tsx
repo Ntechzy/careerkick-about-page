@@ -41,7 +41,7 @@ const MILESTONES: Milestone[] = [
   },
   {
     year: "2023",
-    title: "150+ College Network",
+    title: "300+ College Network",
     description:
       "Built India's largest college partnership network for better admission opportunities and planning.",
     image: "/brand-story/counseling.png",
