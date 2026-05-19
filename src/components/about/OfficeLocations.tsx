@@ -47,6 +47,17 @@ const OFFICE_CARDS: OfficeCardItem[] = [
     href: "https://maps.app.goo.gl/QzgpEZ2osVwjUfQK9",
     center: [83.3732, 26.7606],
   },
+  {
+    id: "indore",
+    name: "Careerkick Services",
+    branch: "Indore Branch",
+    city: "Indore",
+    address:
+      "Apollo Trade center, 402, Geeta Bhawan, Indore, Madhya Pradesh 452001",
+    hours: "10 AM - 6 PM",
+    href: "https://maps.app.goo.gl/DqN6i7ZoypTeLGCT7",
+    center: [75.8869, 22.7148],
+  },
 ];
 
 function OfficeLocationsComponent() {
@@ -121,7 +132,7 @@ function OfficeLocationsComponent() {
           <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-brand-navy/15" />
         </motion.div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">{officeNodes}</div>
+        <div className="mt-16 grid gap-8 md:grid-cols-4">{officeNodes}</div>
       </div>
     </section>
   );
